@@ -1,0 +1,89 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.display{
+    border: 1px solid black;
+    height:100px;
+    margin: 10px;
+    width: auto;
+} */
+
+/* Base styling for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    min-height: 100vh;
+}
+
+/* Styling for the input section */
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input input {
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the display section */
+.display {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.icon img {
+    width: 100px;
+    height: auto;
+}
+
+.weather {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.temperature {
+    font-size: 28px;
+    color: #ff4500;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
